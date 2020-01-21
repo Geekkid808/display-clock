@@ -1,14 +1,36 @@
-body {
-    background: black;
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
 }
+body {
 
+	background: white;
+}
+.main{
+	background: #ccc;
+	width: 400px;
+	height: 175px;
+	margin: 100px auto;
+	position: relative;
+	padding: 30px;
+}
+.badge {
+	width: 96px;
+	background: #e66357;
+	color: white;
+	padding: 5px 10px;
+	font-family: sans-serif;
+	font-weight: bold;
+	position: absolute;
+	top: -15px;
+	left: 40%;
+}
 .clock {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translateX(-50%) translateY(-50%);
-    color: #fff;
-    font-size: 60px;
-    border: 1px solid #ccc;
-    padding: 0px 5px 0px 5px;
+	background: #EBEBEB;
+	text-align: center;
+	font-size: 55px;
+	height: 100%;
+	padding-top: 25px;
+	border-radius:4px;
 }
